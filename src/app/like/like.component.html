@@ -1,0 +1,10 @@
+<!--Heart and Count-->
+<div style="text-align:center">
+  <fa-icon 
+  [class.active]="isActive" 
+  [class.inactive]="!isActive" 
+  (click)="toggle()"
+  [icon]="faHeart">
+</fa-icon>
+  <span>{{likesCount}}</span>
+</div>

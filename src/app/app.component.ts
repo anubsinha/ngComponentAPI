@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  likesCount: number = 10;
+  isActive: boolean = false;
 }
